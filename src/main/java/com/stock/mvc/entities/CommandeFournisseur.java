@@ -27,7 +27,7 @@ public class CommandeFournisseur implements Serializable{
 	@JoinColumn(name="idFournisseur")
 	private Fournisseur fournisseur ;
 	
-	@OneToMany(mappedBy="commandeClient")
+	@OneToMany(mappedBy="commandeFournisseur")
 	private List<LigneCommandeFournisseur> ligneCommandeFournisseurs;
 
 	public Long getIdCommandeFournisseur() {

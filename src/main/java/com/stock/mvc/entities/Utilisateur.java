@@ -19,7 +19,7 @@ public class Utilisateur implements Serializable{
 	
 	private String mail;
 	
-	private String motPass;
+	private String motDePasse;
 	
 	private String photo;
 	
@@ -44,8 +44,8 @@ public class Utilisateur implements Serializable{
 		return mail;
 	}
 
-	public String getMotPass() {
-		return motPass;
+	public String getMotDePasse() {
+		return motDePasse;
 	}
 
 	public String getPhoto() {
@@ -64,8 +64,8 @@ public class Utilisateur implements Serializable{
 		this.mail = mail;
 	}
 
-	public void setMotPass(String motPass) {
-		this.motPass = motPass;
+	public void setMotDePasse(String motPass) {
+		this.motDePasse = motPass;
 	}
 
 	public void setPhoto(String photo) {

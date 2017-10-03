@@ -31,7 +31,7 @@ public class Article implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name="idCategory")
-	private Category categorie;
+	private Category category;
 
 	public String getCodeArticle() {
 		return codeArticle;
@@ -57,8 +57,8 @@ public class Article implements Serializable {
 		return photo;
 	}
 
-	public Category getCategorie() {
-		return categorie;
+	public Category getCategory() {
+		return category;
 	}
 
 	public void setCodeArticle(String codeArticle) {
@@ -85,8 +85,8 @@ public class Article implements Serializable {
 		this.photo = photo;
 	}
 
-	public void setCategorie(Category categorie) {
-		this.categorie = categorie;
+	public void setCategory(Category category) {
+		this.category = category;
 	}
 
 	public Long getIdArticle() {
